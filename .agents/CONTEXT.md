@@ -8,7 +8,7 @@
 ## Stack
 
 - Current exercises use JavaScript and shell scripting.
-- Planned learning stack: JavaScript, Node.js, TypeScript, React, NestJS, Next.js, and React Native.
+- Planned learning stack: JavaScript, Node.js, TypeScript, React, NestJS, Supabase, WebSockets, Next.js, and React Native.
 
 ## Project Structure
 
