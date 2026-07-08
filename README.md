@@ -21,15 +21,11 @@ The goal is to build real projects while improving fundamentals, architecture, t
 
 ```text
 js/
-  hello-javascript/  Fork of mouredev/hello-javascript for course work
+  hello-javascript/  JavaScript course work from mouredev/hello-javascript
+react/
+  ReactCoderhouse/   React Coderhouse course work
 shell/
   scripting/   Shell scripting exercises
-```
-
-`js/hello-javascript` is tracked as a Git submodule. After cloning this repository, initialize it with:
-
-```bash
-git submodule update --init --recursive
 ```
 
 ## Learning Principles
