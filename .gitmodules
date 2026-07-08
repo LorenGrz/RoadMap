@@ -1,0 +1,4 @@
+[submodule "js/hello-javascript"]
+	path = js/hello-javascript
+	url = https://github.com/LorenGrz/hello-javascript
+	branch = main

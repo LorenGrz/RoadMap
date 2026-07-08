@@ -21,8 +21,18 @@ The goal is to build real projects while improving fundamentals, architecture, t
 
 ```text
 ejercicios/
-  js/       JavaScript exercises
-  shell/    Shell scripting exercises
+  js/          Older JavaScript practice files
+  exercises/   Older exercise copies
+js/
+  hello-javascript/  Fork of mouredev/hello-javascript for course work
+shell/
+  scripting/   Shell scripting exercises
+```
+
+`js/hello-javascript` is tracked as a Git submodule. After cloning this repository, initialize it with:
+
+```bash
+git submodule update --init --recursive
 ```
 
 ## Learning Principles
