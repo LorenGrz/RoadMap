@@ -20,9 +20,6 @@ The goal is to build real projects while improving fundamentals, architecture, t
 ## Repository Structure
 
 ```text
-ejercicios/
-  js/          Older JavaScript practice files
-  exercises/   Older exercise copies
 js/
   hello-javascript/  Fork of mouredev/hello-javascript for course work
 shell/
