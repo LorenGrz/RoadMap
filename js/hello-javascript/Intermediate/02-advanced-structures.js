@@ -11,16 +11,16 @@ Vídeo: https://youtu.be/iJvLAZ8MJ2E?t=4355
 
 let numbers = [1, 2, 3, 4, 5, 6]
 
-numbers.forEach(element => console.log(element))
+numbers.forEach((element) => console.log(element))
 
 // map
 
-let doubled = numbers.map(element => element * 2)
+let doubled = numbers.map((element) => element * 2)
 console.log(doubled)
 
 // filter
 
-let evens = numbers.filter(element => element % 2 === 0)
+let evens = numbers.filter((element) => element % 2 === 0)
 console.log(evens)
 
 // reduce
@@ -44,7 +44,7 @@ console.log(flatArray)
 // flatMap
 
 let phrases = ["Hola mundo", "Adiós mundo"]
-let words = phrases.flatMap(phrase => phrase.split(" "))
+let words = phrases.flatMap((phrase) => phrase.split(" "))
 console.log(words)
 
 // - Ordenación
@@ -74,12 +74,12 @@ console.log(sorted.includes(5))
 
 // find
 
-let firstEven = sorted.find(element => element % 2 === 0)
+let firstEven = sorted.find((element) => element % 2 === 0)
 console.log(firstEven)
 
 // findIndex
 
-let firstEvenIndex = sorted.findIndex(element => element % 2 === 0)
+let firstEvenIndex = sorted.findIndex((element) => element % 2 === 0)
 console.log(firstEvenIndex)
 
 // Sets avanzados
@@ -101,12 +101,12 @@ console.log(union)
 
 // Intersección
 
-const intersection = new Set([...setA].filter(element => setB.has(element)))
+const intersection = new Set([...setA].filter((element) => setB.has(element)))
 console.log(intersection)
 
 // Diferencia
 
-const difference = new Set([...setA].filter(element => !setB.has(element)))
+const difference = new Set([...setA].filter((element) => !setB.has(element)))
 console.log(difference)
 
 // - Conversión
@@ -119,15 +119,15 @@ console.log([...setA])
 
 // forEach
 
-setA.forEach(element => console.log(element))
+setA.forEach((element) => console.log(element))
 
 // Maps avanzados
 
 // - Iteración
 
 let myMap = new Map([
-    ["name", "MoureDev"],
-    ["age", 37]
+  ["name", "MoureDev"],
+  ["age", 37],
 ])
 
 myMap.forEach((value, key) => console.log(`${key}: ${value}`))

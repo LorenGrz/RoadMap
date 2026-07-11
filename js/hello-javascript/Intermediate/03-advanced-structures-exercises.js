@@ -4,8 +4,24 @@ Vídeo: https://youtu.be/iJvLAZ8MJ2E?t=7514
 */
 
 // 1. Utiliza map, filter y reduce para crear un ejemplo diferente al de la lección
+let numeros = [4, 3, 2, 6, 5, 4]
+const numerosImpares = numeros.filter((numero) => numero % 2 !== 0)
+console.log(numerosImpares)
+
+const numerosMapeados = numeros.map((numero) => numero / 2)
+console.log(numerosMapeados)
+
+const numerosReducidos = numeros.reduce(
+  (resultado, actual) => actual * resultado,
+  1,
+)
+console.log(numerosReducidos)
 
 // 2. Dado un array de números, crea uno nuevo con dichos números elevados al cubo y filtra sólo los números pares
+const numerosModificados = numeros
+  .map((numero) => numero ** 2)
+  .filter((numero) => numero % 2 == 0)
+console.log(numerosModificados)
 
 // 3. Utiliza flat y flatMap para crear un ejemplo diferente al de la lección
 
