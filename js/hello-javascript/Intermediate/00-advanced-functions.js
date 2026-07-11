@@ -44,11 +44,9 @@ handler.greeting()
 handler.arrowGreeting()
 
 // IIFE (Expresión de Función Invocada Inmediatamente)
-
 ;(function () {
   console.log("IIFE clásico")
 })()
-
 ;(() => {
   console.log("IIFE con arrow function")
 })()
