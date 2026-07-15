@@ -10,7 +10,7 @@ Vídeo: https://youtu.be/iJvLAZ8MJ2E?t=25938
 // Pruebas unitarias
 
 function sum(a, b) {
-    return a + b
+  return a + b
 }
 
 module.exports = sum
