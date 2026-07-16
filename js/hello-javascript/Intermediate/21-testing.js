@@ -16,7 +16,7 @@ function sum(a, b) {
 module.exports = sum
 
 console.log(sum(3, 5) === 8)
-
+3
 // Pruebas de integración
 
 // Pruebas end-to-end (E2E)
