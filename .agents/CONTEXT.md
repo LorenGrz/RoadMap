@@ -7,18 +7,24 @@
 
 ## Stack
 
-- Current exercises use JavaScript and shell scripting.
+- Current exercises use JavaScript and Node.js.
+- Jest is used for testing in `js/hello-javascript`.
 - Planned learning stack: JavaScript, Node.js, TypeScript, React, NestJS, Supabase, WebSockets, Next.js, and React Native.
 
 ## Project Structure
 
-- `roadmap.md`: main roadmap and project plan.
-- `ejercicios/`: practice exercises.
+- `README.md`: main roadmap notes and learning material.
+- `js/hello-javascript/`: JavaScript fundamentals and intermediate exercises.
+- `js/hello-javascript/Basic/`: basic JavaScript lessons and exercises.
+- `js/hello-javascript/Intermediate/`: intermediate JavaScript lessons, DOM examples, async/API work, and Jest tests.
 - `.agents/CONTEXT.md`: repository-specific context for agents.
 
 ## Package Manager And Scripts
 
-- No package manager or project scripts detected.
+- Root uses `pnpm-lock.yaml` and `pnpm-workspace.yaml`.
+- Root `package.json` currently has a `jest` dependency but no scripts.
+- `js/hello-javascript/package.json` uses npm lockfile and has `npm test` for Jest.
+- `node_modules/` is intentionally ignored and must not be committed.
 
 ## Architecture Rules
 
@@ -29,7 +35,7 @@
 
 ## Testing And Verification
 
-- No automated test framework detected.
+- `cd js/hello-javascript && npm test` runs Jest for the JavaScript exercise subproject.
 - Verify JavaScript exercises manually with `node` when applicable.
 - Verify shell scripts manually in a safe local environment.
 
@@ -42,7 +48,8 @@
 - This repository is the central roadmap, not the final home for every project.
 - The recommended long-term product track is a Study Tracker / Developer Progress Tracker.
 - The public portfolio should later link to mature projects from this roadmap.
+- On 2026-07-17, commit `bf83f1e` removed previously tracked `node_modules/` files and added a root `.gitignore`; keep dependency directories untracked.
 
 ## Last Reviewed
 
-- 2026-07-02: Created after updating `roadmap.md`. Inspected current exercise files and confirmed no git repository, package manager, scripts, or local services were present.
+- 2026-07-17: Updated after dependency cleanup. Inspected root manifests, `js/hello-javascript/package.json`, `.gitignore`, tracked `node_modules` state, and latest commit.
