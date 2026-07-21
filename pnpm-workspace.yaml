@@ -1,2 +1,7 @@
+packages:
+  - 'js/*'
+  - 'js/*/*'
+  - 'react/*'
+
 allowBuilds:
   unrs-resolver: false
