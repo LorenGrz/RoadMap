@@ -165,6 +165,16 @@ The portfolio is the public proof of progress. Each project should explain:
 - Repository link.
 - Live demo when available.
 
+### AWS Cloud (Supplementary)
+
+Practical AWS exploration done alongside the main TypeScript roadmap to build cloud fundamentals.
+
+- Problem solved: Understand core AWS services used in full-stack deployments.
+- Stack: Lambda, EC2, RDS (MySQL), Amazon Bedrock (Nova Micro), AWS Budgets, IAM, us-east-1.
+- Architecture decisions: Serverless functions (Lambda) for event-driven logic; managed relational database (RDS) for structured data; Bedrock for AI inference without self-hosting a model; cost controls with Budgets before scaling.
+- What I learned: Provisioning and terminating compute and database resources; invoking a foundation model via SDK; applying least-privilege IAM; estimating and limiting AWS spend.
+- Skills reference: `aws-skills/` covers SAM deploy, Lambda patterns, IAM least privilege, cost optimization, and serverless scanning.
+
 ## Official Resources
 
 - MDN JavaScript.
